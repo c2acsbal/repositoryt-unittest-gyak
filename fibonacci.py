@@ -29,6 +29,6 @@ class TesztFibo(unittest.TestCase):
     def test_otodik_eset(self):
         veg = fibo(7)
         self.assertLessEqual(veg, 10)
-bekert = int(input())
 
-print(fibo(bekert))
+unittest.main()
+
